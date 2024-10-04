@@ -15,6 +15,12 @@ public class Controller {
     public String decirHolaPeople() {
         return "Hola People";
     }
+
+    @GetMapping("/city")
+    public String decirHolaCity() {
+        return "Hola City";
+    }
+
 }
 
 
