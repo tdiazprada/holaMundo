@@ -10,6 +10,11 @@ public class Controller {
     public String decirHola() {
         return "Hola Mundo";
     }
+
+    @GetMapping("/hola_people")
+    public String decirHolaPeople() {
+        return "Hola People";
+    }
 }
 
 
